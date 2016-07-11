@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BankServiceLocal.java&apos; to &apos;com.ejb01.session.BankServiceLocal.java&apos;&#x0D;&#x0A;- Original project: &apos;ejb01-bank&apos;&#x0D;&#x0A;- Destination element: &apos;com.ejb01.session.BankServiceLocal.java&apos;&#x0D;&#x0A;- Original element: &apos;com.ejb01.session.BankServiceLocal.java&apos;" description="Copy compilation unit" destination="/ejbModule&lt;com.ejb01.session{BankServiceLocal.java" element1="/ejbModule&lt;com.ejb01.session{BankServiceLocal.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1468112527784" units="1" version="1.0"/>
+</session>

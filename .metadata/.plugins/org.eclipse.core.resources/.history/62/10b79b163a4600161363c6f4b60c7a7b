@@ -1,0 +1,5 @@
+package com.ejb01.session;
+
+public class BankServiceEJB {
+
+}

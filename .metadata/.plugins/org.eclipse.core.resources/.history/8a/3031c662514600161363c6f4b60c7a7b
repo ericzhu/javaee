@@ -1,0 +1,12 @@
+package client;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+public class RemoteClient {
+	
+	public static void main(String[] args) throws Exception {
+		Context context = new InitialContext();
+	}
+}

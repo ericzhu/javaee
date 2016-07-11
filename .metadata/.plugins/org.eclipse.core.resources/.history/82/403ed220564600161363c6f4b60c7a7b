@@ -1,0 +1,13 @@
+package client;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+
+public class RemoteClient {
+
+	public static void main(String[] args) throws Exception {
+		Context context = new InitialContext();
+
+		String ejbRemoteJNDIName = "java:global/ejb01-bank/bankService!com.ejb01.session.BankServiceRemote";
+	}
+}

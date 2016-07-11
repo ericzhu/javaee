@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ejb01-bank">
+        <property name="java-output-path" value="/ejb01-bank/build/classes"/>
+    </wb-module>
+</project-modules>

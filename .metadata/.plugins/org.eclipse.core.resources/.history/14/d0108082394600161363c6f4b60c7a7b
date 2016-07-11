@@ -1,0 +1,10 @@
+package com.ejb01.session;
+
+import com.ejb01.entity.Account;
+
+public interface BankServiceLocal {
+	
+	public Account createAccount(String owner);
+	public 
+	
+}

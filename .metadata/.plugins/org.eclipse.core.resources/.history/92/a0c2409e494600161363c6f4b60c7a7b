@@ -1,0 +1,20 @@
+package com.ejb01.session;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import javax.ejb.Remote;
+
+import com.ejb01.entity.Account;
+
+@Remote
+public interface BankServiceRemote {
+	
+	public Account createAccount(String owner);
+	public Account getAccount(Long id);
+	public List<Account> getAllAccounts();
+	public Account deposit(Long id, BigDecimal amount);
+	public Account withdraw(Long id, BigDecimal amount);
+	public Account transfer(Long from, Long to, BigDecimal amount);
+	
+}

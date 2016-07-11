@@ -1,0 +1,55 @@
+package com.ejb01.session;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.ejb01.entity.Account;
+
+@Stateless(name = "bankService")
+public class BankServiceEJB implements BankServiceLocal, BankServiceRemote {
+
+	@PersistenceContext(unitName = "ejb01-bank")
+	private EntityManager entityManager;
+
+	@Override
+	public Account createAccount(String owner) {
+		Account account = new Account(owner);
+		entityManager.persist(account);
+		return account;
+	}
+
+	@Override
+	public Account getAccount(Long accountNumber) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> getAllAccounts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account deposit(Long accountNumber, BigDecimal amount) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account withdraw(Long accountNumber, BigDecimal amount) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account transfer(Long accountNumberFrom, Long accountNumberTo, BigDecimal amount) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
